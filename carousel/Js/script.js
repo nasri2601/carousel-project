@@ -1,9 +1,6 @@
-'use script';
 
-
-
-const next = document.querySelector('.next');
-const previous = document.querySelector('.previous');
+const next = document.querySelector('.next')
+const previous = document.querySelector('.previous')
 const images = document.querySelectorAll('li');
 const button = document.querySelector('button');
 let i = 0;
@@ -24,5 +21,5 @@ function scrollingNext() {
         }
    images[i].classList.add('active');
  }
-next.addEventListener('click',scrollingNext);
-previous.addEventListener('click',scrollingPrevious);
+next.addEventListener('click' , scrollingNext)
+previous.addEventListener('click' , scrollingPrevious)

@@ -26,3 +26,5 @@ function scrollingPrevious() {
      images[i].classList.add('active')
 }
 
+next.addEventListener('click' , scrollingNext)
+previous.addEventListener('click' , scrollingPrevious)

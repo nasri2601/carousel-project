@@ -4,8 +4,8 @@ const previous = document.querySelector('.previous')
 const images = document.querySelectorAll('li');
 const button = document.querySelector('button');
 let i = 0;
-​
-​
+
+
 function scrollingNext() {
    images[i].classList.remove('active'); i++;
     if (i>= document.images.length) {
@@ -13,7 +13,7 @@ function scrollingNext() {
         }
    images[i].classList.add('active');
 }
-​
+
  function scrollingPrevious() {
     images[i].classList.remove('active'); i--;
     if (i<0) {
